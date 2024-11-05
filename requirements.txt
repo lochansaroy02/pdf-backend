@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-dotenv
+google-generativeai
+langchain  # and any other dependencies you've used
+pypdf2
+pypdf
