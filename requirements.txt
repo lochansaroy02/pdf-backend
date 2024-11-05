@@ -5,3 +5,4 @@ google-generativeai
 pypdf2
 pypdf
 jinja2
+sqlalchemy
