@@ -10,6 +10,10 @@ from datetime import datetime
 
 router = APIRouter()
 
+@router.get("/upload")
+async def root():
+    return {"message": "Hello from FastAPI on Vercel!"}
+
 @router.post("/upload")
 async def upload_pdf(file: UploadFile = File(...), db: Session = Depends(get_db)):
     try:
