@@ -6,3 +6,5 @@ pypdf2
 pypdf
 jinja2
 sqlalchemy
+python-multipart
+multipart
